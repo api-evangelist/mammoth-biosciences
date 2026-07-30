@@ -1,8 +1,28 @@
 aid: mammoth-biosciences
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/mammoth-biosciences.png
 name: Mammoth Biosciences
-description: Mammoth Biosciences is a company surfaced as a portfolio company of 8vc, mayfield, sv-angel
-  and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the
-  enrichment pipeline.
+description: >-
+  Mammoth Biosciences is a genetic medicines company co-founded by CRISPR
+  co-inventor Jennifer Doudna, developing in vivo gene-editing therapeutics and
+  CRISPR-based diagnostics. The company discovers and engineers novel CRISPR
+  systems and proteins to overcome delivery challenges in genetic medicine, with
+  the goal of creating permanent cures. It is a therapeutics- and
+  diagnostics-focused biotechnology company rather than an API/platform provider;
+  as of this enrichment pass it publishes no public developer API, SDK,
+  documentation portal, or programmatic access. This profile was surfaced as a
+  portfolio company of 8vc, Mayfield and SV Angel and added to the API Evangelist
+  network.
 url: https://raw.githubusercontent.com/api-evangelist/mammoth-biosciences/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -14,9 +34,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Biotechnology
+- CRISPR
+- Gene Editing
+- Genetic Medicine
+- Diagnostics
+- Therapeutics
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,5 +50,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/mammoth-biosciences-domain-security.yml
 - type: Website
   url: https://mammoth.bio
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
